@@ -1,5 +1,6 @@
 (function() {
-  var Expand, Find, Milk, Parse, TemplateCache, key;
+  window.Milk;
+  var Expand, Find, Parse, TemplateCache, key;
   var __slice = Array.prototype.slice;
   TemplateCache = {};
   Find = function(name, stack, value) {
