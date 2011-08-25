@@ -1,4 +1,4 @@
-(function() {
+window.Milk= (function() {
   var Expand, Find, Milk, Parse, TemplateCache, key;
   var __slice = Array.prototype.slice;
   TemplateCache = {};
@@ -249,7 +249,7 @@
     }
     return cache[template] = buffer;
   };
-  window.Milk = {
+  Milk = {
     VERSION: '1.2.0',
     helpers: [],
     partials: null,
