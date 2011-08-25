@@ -284,12 +284,5 @@
       return Expand(this, Parse(template), context.concat([data]), partials);
     }
   };
-  if (typeof exports != "undefined" && exports !== null) {
-    for (key in Milk) {
-      exports[key] = Milk[key];
-    }
-  } else {
-    this.Milk = Milk;
-  }
-  window.Milk= Milk;
+  this.Milk = Milk;
 }).call(this);
