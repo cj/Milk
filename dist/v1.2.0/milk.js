@@ -1,4 +1,4 @@
-window.Milk= (function() {
+(function() {
   var Expand, Find, Milk, Parse, TemplateCache, key;
   var __slice = Array.prototype.slice;
   TemplateCache = {};
@@ -291,4 +291,5 @@ window.Milk= (function() {
   } else {
     this.Milk = Milk;
   }
+  window.Milk= Milk;
 }).call(this);
